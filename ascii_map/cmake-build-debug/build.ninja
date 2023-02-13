@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_AsciiMap: phony || CMakeFiles/AsciiMap.d
 
 build CMakeFiles/AsciiMap.dir/main.cpp.obj: CXX_COMPILER__AsciiMap_Debug C$:/Users/dougl/CLionProjects/ascii_map/main.cpp || cmake_object_order_depends_target_AsciiMap
   DEP_FILE = CMakeFiles\AsciiMap.dir\main.cpp.obj.d
-  FLAGS = -static-libstdc++ -static-libgcc -g -fdiagnostics-color=always -std=gnu++11
+  FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/dougl/CLionProjects/ascii_map/src
   OBJECT_DIR = CMakeFiles\AsciiMap.dir
   OBJECT_FILE_DIR = CMakeFiles\AsciiMap.dir
@@ -65,7 +65,7 @@ build CMakeFiles/AsciiMap.dir/main.cpp.obj: CXX_COMPILER__AsciiMap_Debug C$:/Use
 # Link the executable AsciiMap.exe
 
 build AsciiMap.exe: CXX_EXECUTABLE_LINKER__AsciiMap_Debug CMakeFiles/AsciiMap.dir/main.cpp.obj
-  FLAGS = -static-libstdc++ -static-libgcc -g
+  FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\AsciiMap.dir
   POST_BUILD = cd .
